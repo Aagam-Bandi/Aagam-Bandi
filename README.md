@@ -14,6 +14,9 @@ Structured metadata from PDFs, DOCX and scanned documents. Selective per-page OC
 **[Meeting Intelligence](https://github.com/Aagam-Bandi/meeting-intelligence)** · `Gemini` `LangChain` `ChromaDB` `asyncio`
 Executive briefings and attributed action items from long transcripts, plus retrieval Q&A across them. Map-reduce summarisation with bounded concurrency and jittered retries. The eval harness measures decision coverage, owner attribution, and — the one that matters — whether the system correctly abstains on questions the transcript never covered.
 
+**[Article Search](https://github.com/Aagam-Bandi/article-search)** · `BM25` `Flask` `Elasticsearch` `nDCG`
+Search over blog and news feeds — RSS/Atom ingestion with per-feed failure isolation, BM25F ranking with a floored recency decay, and an evaluation harness that scores the ranking rather than asserting it. The ablations are the point: a shuffled baseline sits 0.047 below the full system, which is the honest measure of how much the ranking is really doing.
+
 **[Credit Default Risk Model](https://github.com/Aagam-Bandi/credit-default-risk)** · `XGBoost` `scikit-learn` `SMOTE`
 Default prediction on 25k customers at a 19% base rate. AUC 0.79 after tuning, with isotonic calibration bringing max probability deviation from 0.34 to 0.035. Mostly an exercise in not being fooled: leak-free resampling, cost-sensitive thresholds, cross-validated confidence intervals.
 
@@ -26,6 +29,7 @@ A post-mortem. This pipeline originally reported a Sharpe ratio of 1.25; the rep
 
 **Languages** Python · SQL · C++
 **LLM / AI** LangChain · Gemini · RAG architectures · ChromaDB · Qdrant · embedding models · async orchestration · prompt design · eval harness design
+**Retrieval** BM25 / BM25F · lexical and dense retrieval · relevance ranking · nDCG and offline evaluation · Elasticsearch
 **Data** ClickHouse · MySQL · PostgreSQL · Elasticsearch · pandas · NumPy
 **ML** scikit-learn · XGBoost · imbalanced-learn · feature engineering · calibration · cost-sensitive evaluation
 **Other** Scrapy · Flask · Gradio · Mixpanel · pytest
