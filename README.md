@@ -1,6 +1,6 @@
 # Aagam Bandi
 
-**LLM systems and data engineering.** B.Tech, IIT Roorkee. I build LLM pipelines, retrieval systems and the analytics infrastructure around them.
+**LLM systems and data engineering.** B.Tech, IIT Roorkee. Previously ML/AI intern at Immverse AI, where I built multilingual RAG over Sanskrit scripture — Qdrant, Phi-4, query rewriting, and a validation agent that checked the retrieval instead of trusting it.
 
 I work on the parts of AI systems that don't demo well — pipelines that fail loudly instead of quietly, retrieval that returns the right chunk, and the evaluation that tells you whether any of it actually helped.
 
