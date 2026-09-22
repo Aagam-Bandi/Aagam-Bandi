@@ -32,8 +32,6 @@ A post-mortem. This pipeline originally reported a Sharpe ratio of 1.25; the rep
 
 ---
 
-### Open to
-
-Contract work on LLM pipelines, document extraction, and evaluation infrastructure.
+### Contact
 
 📧 aagambandi@gmail.com
